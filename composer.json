@@ -1,0 +1,20 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "5.3",
+    "illuminate/database": "8.26",
+    "symfony/routing": "^6.0",
+    "twig/twig": "^3.7",
+    "symfony/http-foundation": "^6.0",
+    "vlucas/valitron": "^1.4",
+    "fakerphp/faker": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lram\\Foundation\\": "./foundation",
+      "App\\": "./app"
+    },
+    "files": [
+      "./functions/twig.php"
+    ]
+  }
+}
